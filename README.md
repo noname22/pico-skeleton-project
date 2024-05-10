@@ -4,8 +4,7 @@ This is a project skeleton (blink example) that can be used to base a project on
 
 ## Using as a base for a new project
 Remeber to
- * Change the project name from `pico_project_skeleton` in CMakeLists.txt
- * Change the executable name from `pico_project_skeleton` in src/CMakeLists.txt and its references
+ * Change the target name from `pico_project_skeleton` in root CMakeLists.txt, eg. `my_project`
  * If adding additional source files in src src/ remember to also add them to the executable in src/CMakeLists.txt
 
 ## Building & running
